@@ -196,8 +196,9 @@ span{
             gap: 44px;
             .card{
                 border: 1px solid #F2F2F2;
-                width: 370px;
+                max-width: 370px;
                 img{
+                    max-width: 338px;
                     margin: 16px;
                     margin-bottom: 28px;
                 }
@@ -490,16 +491,17 @@ footer{
         padding-top: 150px;
         h1{
             max-width: 327px;
-            font-size: 52px;
+            font-size: 7.4vh;
             line-height: 100%;
         }
         .container{
             width: 100%;
-            height: 592px;
+            min-height: 592px;
             transform: translateY(-25px);
             overflow: hidden;
                 .text{
                 width: 100%;
+                max-height: 33vh;
                 flex-direction: column;
                 text-align: center;
                 padding: 24px 20px 15px;
@@ -569,6 +571,10 @@ footer{
             .container{
                 margin-bottom: 12px;
                 .card{
+                    max-width: 335px;
+                    img{
+                        max-width: 311px;
+                    }
                     .rotate{
                         transform: rotateY(180deg);
                     }
